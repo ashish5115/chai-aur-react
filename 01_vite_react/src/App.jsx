@@ -1,10 +1,13 @@
-
+import Chai from "./chai";
 
 function App() {
-  
   return (
-    <h1>Chai aur React with Vite || Ashish</h1>
-  )
+    <>
+      <Chai />
+      <h1>Chai aur React</h1>
+      <p>Test Para</p>
+    </>
+  );
 }
 
-export default App
+export default App;
